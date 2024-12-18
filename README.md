@@ -10,7 +10,7 @@ Dependencies
     - Maybe other banks use the same format?
 
 # Usage
-Functionality provided via user commands defined in _ftplugin/beancount.nvim_.
+Functionality provided via user commands defined in [_ftplugin/beancount.lua_](ftplugin/beancount.lua).
 
 1. `BImport`
     - Parses and imports a _.qfx_ file
