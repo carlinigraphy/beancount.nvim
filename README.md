@@ -8,6 +8,8 @@ Dependencies
     - `bean-check`
 - Wells Fargo _.qfx_ export
     - Maybe other banks use the same format?
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+    - (Optional) for syntax highlighting, folds
 
 # Usage
 Functionality provided via user commands defined in [_ftplugin/beancount.lua_](ftplugin/beancount.lua).
