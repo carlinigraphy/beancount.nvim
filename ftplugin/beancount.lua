@@ -24,8 +24,8 @@ vim.opt_local.softtabstop = 2
 
 vim.opt_local.foldenable = true
 vim.opt_local.foldlevel  = 1
--- Can use org-mode `*` to start section headings, which are automatically
--- folded with the beancount plugin.
+-- Can use org-mode `*` to start section headings, which can be folded via
+-- defined treesitter folds.
 
 local function format()
    vim.cmd.write()
