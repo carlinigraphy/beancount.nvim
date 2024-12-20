@@ -41,11 +41,11 @@ vim.api.nvim_create_autocmd({ "BufWritePost" }, {
    end,
 })
 
-vim.api.nvim_buf_create_user_command(0, 'BFormat', format, {})
-vim.api.nvim_buf_create_user_command(0, 'BCheck',
+vim.api.nvim_buf_create_user_command(0, 'Bformat', format, {})
+vim.api.nvim_buf_create_user_command(0, 'Bcheck',
    [[:silent! lmake | lwindow 5]], {})
 
-vim.api.nvim_create_user_command("BImport", function(args)
+vim.api.nvim_create_user_command("Bimport", function(args)
    local account = vim.fn.input("Account: ", "", "tag")
    require("beancount").insert_rows(args.args, account)
 end, {
